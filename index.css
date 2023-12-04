@@ -1,0 +1,31 @@
+
+.carousel-item {
+  position: relative; /* Asegura que el elemento contenedor sea relativo */
+  height: 200%; /* Ajusta la altura según sea necesario */
+}
+
+.carousel-item h5{
+  color: white;
+  background-color: rgba(0, 0, 0, 0.7);
+  font-size: 40px;
+  text-shadow: 2px 2px 4px rgba(227, 227, 227, 0.5);
+  border-radius: 15px;
+  z-index: 1;
+}
+
+.footer {
+  background-color: #333; /* Cambia el color de fondo del footer */
+  padding: 20px;
+  text-align: center;
+}
+
+.social-icons .icon {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.social-icons .icon img {
+  width: 30px; /* Ajusta el tamaño de los iconos según sea necesario */
+  height: auto;
+}
+
